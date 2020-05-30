@@ -1,0 +1,143 @@
+<?xml version="1.0"?>
+<hbml:hexbattle id="pegasus" type="memoir44" version="1.1" xmlns:hbml="http://www.daysofwonder.com/memoir44/">
+  <hbml:meta>
+    <hbml:designer id="jw">
+      <hbml:name>Richard Borg</hbml:name>
+      <hbml:email></hbml:email>
+      <hbml:website>http://www.boardgamegeek.com/</hbml:website>
+    </hbml:designer>
+    <hbml:version>1</hbml:version>
+  </hbml:meta>
+  <hbml:scenario number="0">
+    <hbml:name>Gold Beach</hbml:name>
+    <hbml:alternate></hbml:alternate>
+    <hbml:title>(Operation Neptune)</hbml:title>
+    <hbml:date year="1944" month="6" day="6"/>
+    <hbml:period></hbml:period>
+    <hbml:location>
+      <hbml:country>France</hbml:country>
+    </hbml:location>
+    <hbml:description>Allied and German forces clash at Hill 102 near tributaries of the Loire.</hbml:description>
+  </hbml:scenario>
+  <hbml:terrain background="standard">
+    <hbml:hex row="1" col="2" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="2" col="2" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="2" col="3" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="2" col="6" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="2" col="7" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="2" col="8" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="2" col="9" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="2" col="10" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="2" col="11" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="2" col="12" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="1" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="4" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="8" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="9" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="10" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="11" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="6" col="4" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="6" col="9" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="6" col="11" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="7" col="5" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="8" col="5" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="8" col="6" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="8" col="8" type="terrain" style="town"></hbml:hex>
+    <hbml:hex row="9" col="5" type="terrain" style="town"></hbml:hex>
+    
+    <hbml:hex row="4" col="3" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="4" col="4" type="terrain" style="hill">Hill 102</hbml:hex>
+    <hbml:hex row="5" col="6" type="terrain" style="hill"></hbml:hex>
+    
+    <hbml:hex row="7" col="9" type="terrain" style="river_straight" face="2"></hbml:hex>
+    <hbml:hex row="7" col="10" type="terrain" style="river_straight" face="5"></hbml:hex>
+    <hbml:hex row="7" col="11" type="terrain" style="river_straight" face="2"></hbml:hex>
+    <hbml:hex row="7" col="12" type="terrain" style="river_straight" face="5">R. Meroux</hbml:hex>
+    <hbml:hex row="7" col="13" type="terrain" style="river_straight" face="2"></hbml:hex>
+    <hbml:hex row="7" col="8" type="terrain" style="river_curve" face="3"></hbml:hex>
+    <hbml:hex row="8" col="7" type="terrain" style="river_straight" face="1"></hbml:hex>
+    <hbml:hex row="9" col="7" type="terrain" style="river_curve" face="2"></hbml:hex>
+    
+    <hbml:hex row="3" col="1" type="terrain" style="river_straight" face="2">R. Loire</hbml:hex>
+    <hbml:hex row="3" col="2" type="terrain" style="river_straight" face="5"></hbml:hex>
+    <hbml:hex row="3" col="3" type="terrain" style="river_straight" face="2"></hbml:hex>
+    <hbml:hex row="3" col="4" type="terrain" style="river_straight" face="5"></hbml:hex>
+    <hbml:hex row="3" col="5" type="terrain" style="river_curve" face="6"></hbml:hex>
+    <hbml:hex row="2" col="5" type="terrain" style="river_straight" face="1"></hbml:hex>
+    <hbml:hex row="1" col="6" type="terrain" style="river_straight" face="1"></hbml:hex>   
+
+    <hbml:hex row="4" col="1" type="terrain" style="town">Poin Le Croix</hbml:hex>
+    <hbml:hex row="3" col="6" type="terrain" style="town">Merciroux</hbml:hex>
+    <hbml:hex row="4" col="11" type="terrain" style="town">Viv Le Mere</hbml:hex>   
+<!--              
+    <hbml:hex row="9" col="10" type="marker" style="allied_wire"></hbml:hex>
+    <hbml:hex row="9" col="11" type="marker" style="allied_hedgehog"></hbml:hex>
+    <hbml:hex row="9" col="8" type="marker" style="bunker" face="4"></hbml:hex>   
+    <hbml:hex row="7" col="8" type="marker" style="bridge" face="2"></hbml:hex>
+    <hbml:hex row="9" col="8" type="marker" style="german_sandbag" face="2"></hbml:hex>
+    <hbml:hex row="9" col="8" type="marker" style="allied_sandbag" face="5"></hbml:hex>
+    <hbml:hex row="9" col="12" type="marker" style="german_wire"></hbml:hex>
+-->
+
+    <hbml:hex row="2" col="4" type="marker" style="german_sandbag" face="6"></hbml:hex>
+    <hbml:hex row="4" col="5" type="marker" style="german_hedgehog"></hbml:hex>
+    <hbml:hex row="5" col="5" type="marker" style="german_wire"></hbml:hex>
+    
+    <hbml:hex row="3" col="5" type="medal" style="allied_medal"></hbml:hex>
+    <hbml:hex row="3" col="6" type="medal" style="german_medal"></hbml:hex>
+              
+  </hbml:terrain>
+  <hbml:forces>
+    <hbml:force id="ger" type="german" name="German">
+      <hbml:unit id="XT01" type="armour" special="ger_special" row="4" col="2"></hbml:unit>
+      <hbml:unit id="XT02" type="artillery" special="ger_special" row="3" col="6"></hbml:unit>
+      <hbml:unit id="XI01" type="infantry" special="ger_special" row="2" col="4"></hbml:unit>
+      <hbml:unit id="XI02" type="infantry" row="4" col="3"></hbml:unit>
+      <hbml:unit id="XI03" type="infantry" row="4" col="7"></hbml:unit>
+      <hbml:unit id="XI04" type="infantry" row="4" col="8"></hbml:unit>
+      <hbml:unit id="XI05" type="infantry" row="4" col="10"></hbml:unit>
+      <hbml:unit id="XI06" type="infantry" row="4" col="12"></hbml:unit>
+      <hbml:unit id="XI07" type="infantry" row="6" col="4"></hbml:unit>
+      <hbml:unit id="XI08" type="infantry" row="6" col="6"></hbml:unit>
+      <hbml:unit id="XA01" type="artillery" row="4" col="9"></hbml:unit>
+      <hbml:unit id="XA02" type="artillery" row="5" col="4"></hbml:unit>
+      <hbml:special>
+        <hbml:instructions>
+          <hbml:p>Take 4 command cards.</hbml:p>
+        </hbml:instructions>
+      </hbml:special>
+    </hbml:force>   
+    <hbml:force id="all" type="allied" name="Allied">
+      <hbml:unit id="AI01" type="infantry"  special="us_rangers" row="1" col="3"></hbml:unit>
+      <hbml:unit id="AI02" type="infantry" row="1" col="11"></hbml:unit>
+      <hbml:unit id="AI03" type="infantry" row="5" col="1"></hbml:unit>
+      <hbml:unit id="AI04" type="infantry" special="br_airborne" row="6" col="1"></hbml:unit>
+      <hbml:unit id="AI05" type="infantry" row="8" col="2"></hbml:unit>
+      <hbml:unit id="AI06" type="infantry" row="9" special="ffi" col="3"></hbml:unit>       
+      <hbml:unit id="AA01" type="artillery" row="1" col="12"></hbml:unit>
+      <hbml:unit id="AA02" type="artillery" row="7" col="2"></hbml:unit>
+      <hbml:special>
+        <hbml:instructions>
+          <hbml:p>Take 4 command cards.</hbml:p>
+          <hbml:p>You move first.</hbml:p>
+          <hbml:p></hbml:p>             
+        </hbml:instructions>
+      </hbml:special>
+    </hbml:force>
+  </hbml:forces>
+  <hbml:notes>
+    <hbml:note id="s" type="special">
+      <hbml:p>The Axis player is in control of the Bunkers and may claim them as a defensive position.</hbml:p>
+      <hbml:p>The Allied Special Forces is a Commando unit. Place an Allied special force token in the same hex as this unit to distinguish it from other units. Commandos may move 1 or 2 hexes and still battle.</hbml:p>
+    </hbml:note>
+    <hbml:note id="h" type="historical">
+      <hbml:p>The German defenses at Gold consisted of two battalions of the 726th Regiment supported by inland batteries. Barbed wire and a few anti-tank hedgehog obstacles protected the entire stretch of beach.</hbml:p> 
+      <hbml:p>The British planners had divided Gold beach into four zones, 'Item', 'Jig', 'King' and 'Love'. For the assault, the 231st Brigade would attack Jig and the 69th Brigade would land on King. Almost as soon as the infantry got to the beaches on Jig, they started to suffer serious casualties. 'Hobart's Funnies' and 47 Royal Marine Commando units landed next, but the coastal defenders hung on at Le Hamel despite the Allied troops' tank support. To the west, the radar station at St. Come de Fresne' was taken and to the east of Le Hamel, the Customs house was cleared. From these points, in a wide sweeping movement, Infantry and tanks advanced inland toward the high ground.</hbml:p> 
+    </hbml:note> 
+    <hbml:note id="v" type="victory">
+      <hbml:p>6 Medals.</hbml:p>
+      <hbml:p>An Allied unit that captures a town hex, as noted, counts as one Victory Medal. Place an Objective Medal on each of these hexes. As long as the Allied unit remains on the hex, it continues to count toward the Allied victory. If the unit moves off or is eliminated, it no longer counts.</hbml:p>
+    </hbml:note>        
+  </hbml:notes>
+  
+</hbml:hexbattle>

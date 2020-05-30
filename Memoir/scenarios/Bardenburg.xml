@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<hbml:hexbattle id="bardenburg" type="memoir44" version="1.1" xmlns:hbml="http://www.daysofwonder.com/memoir44/">
+  <hbml:meta>
+    <hbml:designer id="ard">
+      <hbml:name>Aardvark</hbml:name>
+      <hbml:email></hbml:email>
+      <hbml:website>www.fred.com</hbml:website>
+    </hbml:designer>
+    <hbml:version>1</hbml:version>
+  </hbml:meta>
+  <hbml:scenario number="0">
+    <hbml:name>Bardenburg</hbml:name>
+    <hbml:alternate></hbml:alternate>
+    <hbml:title></hbml:title>
+    <hbml:date year="1944" month="10" day="11"/>
+    <hbml:period></hbml:period>
+    <hbml:location>
+      <hbml:country>France</hbml:country>
+    </hbml:location>
+    <hbml:description>Allied and German infantry squads clash near Aachen.</hbml:description>
+  </hbml:scenario>
+  <hbml:terrain background="standard">
+    <hbml:hex row="5" col="10" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="7" col="1" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="7" col="2" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="7" col="3" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="9" col="7" type="terrain" style="woods"></hbml:hex>
+
+    <hbml:hex row="2" col="1" type="terrain" style="town"></hbml:hex>
+    <hbml:hex row="2" col="3" type="terrain" style="town"></hbml:hex>
+    <hbml:hex row="2" col="8" type="terrain" style="town"></hbml:hex>
+    <hbml:hex row="4" col="2" type="terrain" style="town"></hbml:hex>
+    <hbml:hex row="4" col="6" type="terrain" style="town"></hbml:hex>
+    <hbml:hex row="4" col="8" type="terrain" style="town"></hbml:hex>
+    <hbml:hex row="3" col="12" type="terrain" style="town"></hbml:hex>
+    <hbml:hex row="5" col="5" type="terrain" style="town"></hbml:hex>
+    <hbml:hex row="7" col="8" type="terrain" style="town"></hbml:hex>
+    
+    
+    <hbml:hex row="1" col="6" type="terrain" style="river_straight" face="3"></hbml:hex>
+    <hbml:hex row="2" col="6" type="terrain" style="river_straight" face="3"></hbml:hex>
+    <hbml:hex row="3" col="8" type="terrain" style="river_straight" face="2"></hbml:hex>
+    <hbml:hex row="4" col="9" type="terrain" style="river_straight" face="3"></hbml:hex>
+
+    <hbml:hex row="3" col="7" type="terrain" style="river_curve" face="1"></hbml:hex>
+    <hbml:hex row="3" col="9" type="terrain" style="river_curve" face="4"></hbml:hex>    
+
+    <hbml:hex row="2" col="6" type="obstacle" style="bridge" face="1"></hbml:hex>
+
+<!--              
+    <hbml:hex row="9" col="10" type="obstacle" style="allied_wire"></hbml:hex>
+    <hbml:hex row="9" col="11" type="obstacle" style="allied_hedgehog"></hbml:hex>
+    <hbml:hex row="9" col="8" type="obstacle" style="bunker" face="4"></hbml:hex>   
+    <hbml:hex row="7" col="8" type="obstacle" style="bridge" face="2"></hbml:hex>
+    <hbml:hex row="9" col="8" type="obstacle" style="german_sandbag" face="2"></hbml:hex>
+    <hbml:hex row="9" col="8" type="obstacle" style="allied_sandbag" face="5"></hbml:hex>
+    <hbml:hex row="9" col="12" type="obstacle" style="german_wire"></hbml:hex>
+    <hbml:hex row="2" col="4" type="obstacle" style="german_sandbag" face="6"></hbml:hex>
+    <hbml:hex row="4" col="5" type="obstacle" style="german_hedgehog"></hbml:hex>
+    <hbml:hex row="5" col="5" type="obstacle" style="german_wire"></hbml:hex>
+-->    
+
+    <hbml:hex row="2" col="1" type="medal" style="allied_medal"></hbml:hex>
+    <hbml:hex row="4" col="2" type="medal" style="allied_medal"></hbml:hex>
+    <hbml:hex row="2" col="8" type="medal" style="german_medal"></hbml:hex>
+    <hbml:hex row="4" col="6" type="medal" style="german_medal"></hbml:hex>
+    <hbml:hex row="4" col="8" type="medal" style="german_medal"></hbml:hex>
+    <hbml:hex row="7" col="8" type="medal" style="german_medal"></hbml:hex>
+              
+  </hbml:terrain>
+  <hbml:forces>
+    <hbml:force id="ger" type="german" name="German">
+      <hbml:unit id="XT01" type="armour"  row="1" col="12"></hbml:unit>
+      <hbml:unit id="XT02" type="armour"  row="7" col="4"></hbml:unit>
+      <hbml:unit id="XI01" type="infantry" row="2" col="1"></hbml:unit>
+      <hbml:unit id="XI02" type="infantry" row="6" col="12"></hbml:unit>
+      <hbml:unit id="XI03" type="infantry" row="4" col="2"></hbml:unit>
+      <hbml:unit id="XI04" type="infantry" row="4" col="8"></hbml:unit>
+      <hbml:unit id="XI05" type="infantry" row="8" col="5"></hbml:unit>
+      <hbml:special>
+        <hbml:instructions>
+          <hbml:p>Take 5 command cards.</hbml:p>
+          <hbml:p>You move first.</hbml:p>         
+        </hbml:instructions>
+      </hbml:special>
+    </hbml:force>   
+    <hbml:force id="all" type="allied" name="Allied">
+      <hbml:unit id="AI01" type="infantry" row="2" col="3"></hbml:unit>
+      <hbml:unit id="AI02" type="infantry" row="2" col="8"></hbml:unit>
+      <hbml:unit id="AI03" type="infantry" row="4" col="6"></hbml:unit>
+      <hbml:unit id="AI04" type="infantry" row="4" col="8"></hbml:unit>
+      <hbml:unit id="AI05" type="infantry" row="5" col="5"></hbml:unit>
+      <hbml:unit id="AI06" type="infantry" row="5" col="8"></hbml:unit>  
+      <hbml:unit id="AI07" type="infantry" row="6" col="8"></hbml:unit> 
+      <hbml:unit id="AI08" type="infantry" row="7" col="8"></hbml:unit>      
+      <hbml:special>
+        <hbml:instructions>
+          <hbml:p>Take 4 command cards.</hbml:p>
+          <hbml:p></hbml:p>             
+        </hbml:instructions>
+      </hbml:special>
+    </hbml:force>
+  </hbml:forces>
+  <hbml:notes>
+    <hbml:note id="s" type="special">
+      <hbml:p>All Axis Infantry are considered to be Special Forces.  Both of the Axis Armor units are considered to be elite and start the game with 4 tank figures each. Note that no metals are awarded during the game.  See Victory Conditions.</hbml:p>                    
+    </hbml:note>
+    <hbml:note id="h" type="historical">
+      <hbml:p>During the struggle to encircle Aachen elements of the US 120th Infantry Regiment find themselves trapped by several squads of the German 108th Panzer Brigade.</hbml:p> 
+    </hbml:note> 
+    <hbml:note id="v" type="victory">
+      <hbml:p>No metals are awarded during the game, even for eliminating units.  The Allies win if they simultaneously occupy both "Allied Medal" towns at the end of an Axis turn.  The Axis wins if it simultaneously occupies the four "Axis Medal" towns at the end of an Allied Turn.</hbml:p>
+    </hbml:note>        
+  </hbml:notes>
+  
+</hbml:hexbattle>

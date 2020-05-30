@@ -1,0 +1,154 @@
+<?xml version="1.0"?>
+<hbml:hexbattle id="bigblackriver" type="battlecry" version="1.0" xmlns:hbml="http://users.erols.com/jadf/bc/">
+  <hbml:meta>
+    <hbml:designer>
+      <hbml:name>Jean-Baptiste Hebraud</hbml:name>
+      <hbml:email>jbhebraud@free.fr</hbml:email>
+    </hbml:designer>
+    <hbml:version>1</hbml:version>
+  </hbml:meta>
+  <hbml:scenario>
+    <hbml:name abpp="ms010" acc="ms/ms010">Big Black River Bridge</hbml:name>
+    <hbml:alternate>Big Black</hbml:alternate>
+    <hbml:title></hbml:title>
+    <hbml:date year="1863" month="05" day="17">17th May, 1863</hbml:date>
+    <hbml:period></hbml:period>
+    <hbml:location>
+      <hbml:country>USA</hbml:country>
+      <hbml:state code="ms">Mississippi</hbml:state>
+    </hbml:location>
+    <hbml:description></hbml:description>    
+  </hbml:scenario>
+  <hbml:terrain>
+    <hbml:hex row="3" col="2" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="3" col="3" type="terrain" style="woods"></hbml:hex> 
+    <hbml:hex row="3" col="4" type="terrain" style="woods"></hbml:hex>  
+    <hbml:hex row="3" col="5" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="11" type="terrain" style="woods"></hbml:hex> 
+    <hbml:hex row="5" col="11" type="terrain" style="woods"></hbml:hex> 
+    <hbml:hex row="5" col="12" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="13" type="terrain" style="woods"></hbml:hex> 
+    <hbml:hex row="7" col="6" type="terrain" style="woods"></hbml:hex> 
+    <hbml:hex row="7" col="8" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="7" col="9" type="terrain" style="woods"></hbml:hex> 
+    <hbml:hex row="7" col="10" type="terrain" style="woods"></hbml:hex> 
+    <hbml:hex row="7" col="11" type="terrain" style="woods"></hbml:hex>
+    
+    <hbml:hex row="1" col="7" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="1" col="8" type="terrain" style="hill"></hbml:hex> 
+    <hbml:hex row="1" col="9" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="1" col="10" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="1" col="11" type="terrain" style="hill"></hbml:hex> 
+    <hbml:hex row="9" col="4" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="9" col="5" type="terrain" style="hill"></hbml:hex> 
+    <hbml:hex row="9" col="6" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="9" col="7" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="9" col="8" type="terrain" style="hill"></hbml:hex> 
+    <hbml:hex row="9" col="9" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="9" col="10" type="terrain" style="hill"></hbml:hex> 
+    <hbml:hex row="9" col="11" type="terrain" style="hill"></hbml:hex>
+        
+    <hbml:hex row="4" col="1" type="terrain" style="swamp"></hbml:hex>
+    <hbml:hex row="5" col="1" type="terrain" style="swamp">Swamp</hbml:hex>
+    
+    <hbml:hex row="4" col="10" type="terrain" style="lake"></hbml:hex>
+    <hbml:hex row="5" col="10" type="terrain" style="lake"></hbml:hex> 
+    <hbml:hex row="6" col="10" type="terrain" style="lake">Gini Lake</hbml:hex> 
+    
+    <hbml:hex row="7" col="1" type="terrain" style="river_curve" face="4"></hbml:hex>
+    <hbml:hex row="8" col="1" type="terrain" style="river_curve" face="1"></hbml:hex>
+    <hbml:hex row="8" col="2" type="terrain" style="river_straight" face="2"></hbml:hex>
+    <hbml:hex row="8" col="3" type="terrain" style="river_straight" face="2"></hbml:hex> 
+    <hbml:hex row="8" col="5" type="terrain" style="river_straight" face="2"></hbml:hex> 
+    <hbml:hex row="8" col="7" type="terrain" style="river_straight" face="2"></hbml:hex> 
+    <hbml:hex row="8" col="8" type="terrain" style="river_straight" face="2"></hbml:hex> 
+    <hbml:hex row="8" col="9" type="terrain" style="river_straight" face="2"></hbml:hex> 
+    <hbml:hex row="8" col="10" type="terrain" style="river_straight" face="2"></hbml:hex> 
+    <hbml:hex row="8" col="4" type="terrain" style="river_straight_bridge" face="2"></hbml:hex>
+    <hbml:hex row="8" col="6" type="terrain" style="river_straight_bridge" face="2"></hbml:hex> 
+    <hbml:hex row="8" col="11" type="terrain" style="river_curve" face="6"></hbml:hex>
+    <hbml:hex row="7" col="12" type="terrain" style="river_curve" face="3">Big Black River</hbml:hex>
+    <hbml:hex row="7" col="13" type="terrain" style="river_curve" face="6"></hbml:hex>
+           
+    <hbml:hex row="5" col="2" type="terrain" style="fence_two" face="1"></hbml:hex>
+    <hbml:hex row="5" col="9" type="terrain" style="fence_three" face="1"></hbml:hex>
+    
+    <hbml:hex row="5" col="3" type="terrain" style="field-works" face="1"></hbml:hex>
+    <hbml:hex row="5" col="4" type="terrain" style="field-works" face="1"></hbml:hex>
+    <hbml:hex row="5" col="5" type="terrain" style="field-works" face="1"></hbml:hex>
+    <hbml:hex row="5" col="6" type="terrain" style="field-works" face="1"></hbml:hex>
+    <hbml:hex row="5" col="7" type="terrain" style="field-works" face="1"></hbml:hex>
+    <hbml:hex row="5" col="8" type="terrain" style="field-works" face="1"></hbml:hex>
+    
+    <hbml:hex row="5" col="2" type="special" style="border">Dismounted Cavalry</hbml:hex>
+    <hbml:hex row="5" col="3" type="special" style="border"></hbml:hex>  
+     
+  </hbml:terrain>
+  <hbml:forces>
+    <hbml:force id="u" type="union" name="Union">
+      <hbml:commander>John A. McClernand</hbml:commander>
+      <hbml:unit id="UG01" type="general"  row="3" col="3">Lawler</hbml:unit>
+      <hbml:unit id="UG02" type="general"  row="1" col="9">Garrard</hbml:unit>
+      <hbml:unit id="UG02" type="general"  row="3" col="12">Burbridge</hbml:unit>
+      <hbml:unit id="UI01" type="infantry" row="2" col="2"></hbml:unit>
+      <hbml:unit id="UI02" type="infantry" row="2" col="4"></hbml:unit>
+      <hbml:unit id="UI03" type="infantry" row="2" col="6"></hbml:unit>
+      <hbml:unit id="UI04" type="infantry" row="2" col="7"></hbml:unit>
+      <hbml:unit id="UI05" type="infantry" row="2" col="9"></hbml:unit>
+      <hbml:unit id="UI06" type="infantry" row="2" col="10"></hbml:unit>
+      <hbml:unit id="UI07" type="infantry" row="3" col="3"></hbml:unit>
+      <hbml:unit id="UI08" type="infantry" row="3" col="5"></hbml:unit>
+      <hbml:unit id="UI09" type="infantry" row="4" col="11"></hbml:unit>
+      <hbml:unit id="UI10" type="infantry" row="4" col="12"></hbml:unit>
+      <hbml:unit id="UA01" type="artillery" row="1" col="10"></hbml:unit>
+      <hbml:unit id="UA02" type="artillery" row="1" col="11"></hbml:unit>
+      <hbml:special>
+        <hbml:cards>5</hbml:cards>
+        <hbml:instructions>You move first.</hbml:instructions>
+      </hbml:special>
+    </hbml:force>
+    <hbml:force id="c" type="confederate" name="Confederate">
+      <hbml:commander>John S. Bowen</hbml:commander>
+      <hbml:unit id="CG01" type="general"  row="6" col="3">Green</hbml:unit>
+      <hbml:unit id="CG02" type="general"  row="9" col="6">Baldwin</hbml:unit>
+      <hbml:unit id="CG03" type="general"  row="6" col="8">Vaughn</hbml:unit>
+      <hbml:unit id="CI01" type="infantry" row="5" col="2"></hbml:unit>
+      <hbml:unit id="CI02" type="infantry" row="5" col="3"></hbml:unit>
+      <hbml:unit id="CI03" type="infantry" row="5" col="4"></hbml:unit>
+      <hbml:unit id="CI04" type="infantry" row="5" col="6"></hbml:unit>
+      <hbml:unit id="CI05" type="infantry" row="5" col="8"></hbml:unit>
+      <hbml:unit id="CI06" type="infantry" row="6" col="9"></hbml:unit>
+      <hbml:unit id="CI07" type="infantry" row="9" col="5"></hbml:unit>
+      <hbml:unit id="CI08" type="infantry" row="9" col="7"></hbml:unit>
+      <hbml:unit id="CA01" type="artillery" row="5" col="9"></hbml:unit>
+      <hbml:unit id="CA02" type="artillery" row="9" col="4"></hbml:unit>
+      <hbml:special>
+        <hbml:cards>4</hbml:cards>
+        <hbml:instructions></hbml:instructions>
+      </hbml:special>
+    </hbml:force>    
+  </hbml:forces>
+  <hbml:notes>
+    <hbml:note id="s" type="special">
+      <hbml:p>Dismounted units<hbml:comment> (502, 503)</hbml:comment>: Treat as infantry</hbml:p>
+      <hbml:p>units, but with only 3 figures.</hbml:p>
+      <hbml:p></hbml:p>
+      <hbml:p>Crossing River: Normal rules apply. In </hbml:p>
+      <hbml:p>addition roll one die each times a unit tries </hbml:p>
+      <hbml:p>to cross.  Remove 1 Figure if die result is</hbml:p>
+      <hbml:p>same as unit.  Roll each turn unit remains</hbml:p>
+      <hbml:p>on hex.</hbml:p>
+      <hbml:p></hbml:p>
+      <hbml:p>Swamps<hbml:comment> (401, 501)</hbml:comment>: Block line-of-sight. They stop </hbml:p>
+      <hbml:p>movement when entered.  Units on </hbml:p>
+      <hbml:p>swamp have 1 die less when attacking.</hbml:p>
+      <hbml:p></hbml:p>
+      <hbml:p>Gini Lake<hbml:comment> (410, 510, 610)</hbml:comment>: Treat as rough terrain.</hbml:p>
+      <hbml:p></hbml:p>
+      <hbml:p>Remove 'Construct Fieldworks' from deck.</hbml:p>
+    </hbml:note>
+    <hbml:note id="h" type="historical">
+      <hbml:p></hbml:p>
+    </hbml:note>    
+  </hbml:notes>
+</hbml:hexbattle>

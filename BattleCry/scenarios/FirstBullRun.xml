@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<hbml:hexbattle id="firstbullrun" type="battlecry" version="1.0" xmlns:hbml="http://users.erols.com/jadf/bc/">
+  <hbml:meta>
+    <hbml:designer>
+      <hbml:name>Richard Borg</hbml:name>
+    </hbml:designer>
+    <hbml:version>1</hbml:version>
+  </hbml:meta>
+  <hbml:scenario>
+    <hbml:name abpp="va005" acc="va/va005" oob="bull1">First Bull Run</hbml:name>
+    <hbml:alternate>First Manassas</hbml:alternate>
+    <hbml:title></hbml:title>
+    <hbml:date year="1861" month="07" day="21">21st July, 1861</hbml:date>
+    <hbml:period></hbml:period>
+    <hbml:location>
+      <hbml:country>USA</hbml:country>
+      <hbml:state  code="va61">Virginia</hbml:state>
+    </hbml:location>
+    <hbml:description>The scenario recreates a portion of the battle centered around the Henry House Hill.</hbml:description>       
+  </hbml:scenario>
+  <hbml:terrain>
+    <hbml:hex row="3" col="6" type="terrain" style="buildings">Henry House</hbml:hex>
+    <hbml:hex row="6" col="5" type="terrain" style="hill">Henry House Hill</hbml:hex>
+    <hbml:hex row="4" col="3" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="6" col="6" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="6" col="7" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="6" col="8" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="7" col="9" type="terrain" style="hill"></hbml:hex>     
+    <hbml:hex row="5" col="2" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="12" type="terrain" style="woods"></hbml:hex>
+  </hbml:terrain>
+  <hbml:forces>
+    <hbml:force id="u" type="union" name="Union">
+      <hbml:commander>Irwin McDowell</hbml:commander>
+      <hbml:unit id="UG01" type="general"  row="1" col="9">Hunter</hbml:unit>
+      <hbml:unit id="UI01" type="infantry" row="1" col="9"></hbml:unit>
+      <hbml:unit id="UI02" type="infantry" row="2" col="5"></hbml:unit>
+      <hbml:unit id="UI03" type="infantry" row="2" col="6"></hbml:unit>
+      <hbml:unit id="UI04" type="infantry" row="2" col="7"></hbml:unit>
+      <hbml:unit id="UI05" type="infantry" row="2" col="8"></hbml:unit>
+      <hbml:unit id="UI06" type="infantry" row="2" col="9"></hbml:unit>
+      <hbml:unit id="UI07" type="infantry" row="2" col="11"></hbml:unit>
+      <hbml:unit id="UI08" type="infantry" row="2" col="12"></hbml:unit>
+      <hbml:unit id="UI09" type="infantry" row="2" col="3"></hbml:unit>
+      <hbml:unit id="UC01" type="cavalry"  row="2" col="2"></hbml:unit>
+      <hbml:unit id="UA01" type="artillery" row="2" col="4"></hbml:unit>
+      <hbml:special>
+        <hbml:cards>4</hbml:cards>
+        <hbml:instructions>You move first.</hbml:instructions>
+      </hbml:special>
+    </hbml:force>
+    <hbml:force id="c" type="confederate" name="Confederate">
+      <hbml:commander>Pierre G. T. Beauregard</hbml:commander>
+      <hbml:unit id="CG01" type="general"  row="8" col="2">Stuart</hbml:unit>
+      <hbml:unit id="CG02" type="general"  row="8" col="8">Jackson</hbml:unit>
+      <hbml:unit id="CI01" type="infantry" row="8" col="3"></hbml:unit>
+      <hbml:unit id="CI02" type="infantry" row="8" col="6"></hbml:unit>
+      <hbml:unit id="CI03" type="infantry" row="8" col="7"></hbml:unit>
+      <hbml:unit id="CI04" type="infantry" row="8" col="8"></hbml:unit>
+      <hbml:unit id="CI05" type="infantry" row="8" col="11"></hbml:unit>
+      <hbml:unit id="CI06" type="infantry" row="8" col="12"></hbml:unit>
+      <hbml:unit id="CC01" type="cavalry"  row="8" col="1"></hbml:unit>
+      <hbml:unit id="CC02" type="cavalry"  row="8" col="2"></hbml:unit>
+      <hbml:unit id="CA01" type="artillery" row="8" col="9"></hbml:unit>
+      <hbml:special>
+        <hbml:cards>5</hbml:cards>
+        <hbml:instructions></hbml:instructions>
+      </hbml:special>
+    </hbml:force>    
+  </hbml:forces>
+  <hbml:notes>
+    <hbml:note id="s" type="special">
+      <hbml:p>None.</hbml:p>
+    </hbml:note>
+    <hbml:note id="h" type="historical">
+      <hbml:p></hbml:p>
+    </hbml:note>    
+  </hbml:notes>
+</hbml:hexbattle>

@@ -1,0 +1,156 @@
+<?xml version="1.0"?>
+<hbml:hexbattle id="prairiegrove" type="battlecry" version="1.0" xmlns:hbml="http://users.erols.com/jadf/bc/">
+  <hbml:meta>
+    <hbml:designer>
+      <hbml:name>Brian Bradford</hbml:name>
+      <hbml:email></hbml:email>
+    </hbml:designer>
+    <hbml:version>1</hbml:version>
+  </hbml:meta>
+  <hbml:scenario>
+    <hbml:name abpp="ar005" acc="ar/ar005">Prairie Grove, Arkansas</hbml:name>
+    <hbml:alternate>Fayetteville</hbml:alternate>
+    <hbml:title></hbml:title>
+    <hbml:date startyear="1860" startmonth="12" startday="07">7th December, 1864</hbml:date>
+    <hbml:period></hbml:period>
+    <hbml:location>
+      <hbml:country>USA</hbml:country>
+      <hbml:state code="arkansas">Arkansas</hbml:state>
+    </hbml:location>    
+    <hbml:description></hbml:description> 
+  </hbml:scenario>
+  <hbml:terrain>
+    <hbml:hex row="1" col="3" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="1" col="4" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="1" col="5" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="1" col="6" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="1" col="7" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="1" col="8" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="1" col="9" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="1" col="10" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="1" col="11" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="1" col="12" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="2" col="3" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="2" col="5" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="2" col="6" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="2" col="7" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="2" col="8" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="2" col="9" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="2" col="10" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="2" col="11" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="2" col="12" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="9" col="6" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="9" col="7" type="terrain" style="hill"></hbml:hex>
+    
+    <hbml:hex row="2" col="4" type="terrain" style="buildings">Borden Home</hbml:hex>
+    <hbml:hex row="3" col="7" type="terrain" style="buildings">Roger Home</hbml:hex>
+    <hbml:hex row="3" col="10" type="terrain" style="buildings">Morton Home</hbml:hex>
+    <hbml:hex row="3" col="8" type="terrain" style="orchard"></hbml:hex>
+    
+    <hbml:hex row="1" col="2" type="terrain" style="woods"></hbml:hex>  
+    <hbml:hex row="2" col="2" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="3" col="2" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="2" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="3" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="6" col="2" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="7" col="5" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="7" col="6" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="7" col="7" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="7" col="9" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="8" col="1" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="8" col="4" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="8" col="12" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="9" col="2" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="9" col="4" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="9" col="13" type="terrain" style="woods"></hbml:hex>
+    
+    <hbml:hex row="4" col="9" type="terrain" style="field"></hbml:hex>
+    <hbml:hex row="4" col="10" type="terrain" style="field"></hbml:hex>
+    <hbml:hex row="5" col="9" type="terrain" style="field"></hbml:hex>
+    <hbml:hex row="5" col="10" type="terrain" style="field"></hbml:hex> 
+    
+    <hbml:hex row="1" col="1" type="terrain" style="river_straight" face="3">Illinois R.</hbml:hex>
+    <hbml:hex row="2" col="1" type="terrain" style="river_curve" face="5"></hbml:hex>
+    <hbml:hex row="3" col="1" type="terrain" style="river_curve" face="2"></hbml:hex>
+    <hbml:hex row="4" col="1" type="terrain" style="river_straight" face="3"></hbml:hex>  
+    <hbml:hex row="5" col="2" type="terrain" style="river_curve" face="5"></hbml:hex> 
+    <hbml:hex row="6" col="1" type="terrain" style="river_curve" face="2"></hbml:hex>
+    <hbml:hex row="7" col="2" type="terrain" style="river_straight_bridge" face="3"></hbml:hex>
+    <hbml:hex row="8" col="2" type="terrain" style="river_straight" face="3"></hbml:hex>
+    <hbml:hex row="9" col="3" type="terrain" style="river_straight" face="3"></hbml:hex>
+    
+    <hbml:hex row="9" col="10" type="special" style="border">Union Reinforcements</hbml:hex>
+    <hbml:hex row="9" col="11" type="special" style="border"></hbml:hex>
+           
+  </hbml:terrain>
+  <hbml:forces>
+    <hbml:force id="u" type="union" name="Union">
+      <hbml:commander>James G Blunt</hbml:commander>
+      <hbml:unit id="UG01" type="general"  row="8" col="3">Heron</hbml:unit>
+      <hbml:unit id="UG02" type="general"  row="9" col="6">Huston</hbml:unit>
+      <hbml:unit id="UG03" type="general"  row="8" col="10">Blunt</hbml:unit>      
+      <hbml:unit id="UI01" type="infantry" row="8" col="3"></hbml:unit>
+      <hbml:unit id="UI02" type="infantry" row="8" col="10"></hbml:unit>
+      <hbml:unit id="UI03" type="infantry" row="8" col="11"></hbml:unit>
+      <hbml:unit id="UI04" type="infantry" row="9" col="10"></hbml:unit>
+      <hbml:unit id="UI05" type="infantry" row="9" col="11"></hbml:unit>
+      <hbml:unit id="UI06" type="infantry" row="9" col="6">Repeating Rifles</hbml:unit>
+      <hbml:unit id="UA01" type="artillery" row="7" col="3"></hbml:unit>
+      <hbml:unit id="UA02" type="artillery" row="9" col="7"></hbml:unit>
+      <hbml:unit id="UA03" type="artillery" row="9" col="12"></hbml:unit>
+      <hbml:special>
+        <hbml:cards>3</hbml:cards>
+        <hbml:instructions>You move first.</hbml:instructions>
+      </hbml:special>
+    </hbml:force>
+    <hbml:force id="c" type="confederate" name="Confederate">
+      <hbml:commander>Thomas C Hindman</hbml:commander>
+      <hbml:unit id="CG01" type="general"  row="1" col="3">Marmaduke</hbml:unit>
+      <hbml:unit id="CG02" type="general"  row="2" col="9">Frost</hbml:unit>
+      <hbml:unit id="CI01" type="infantry" row="1" col="4"></hbml:unit>
+      <hbml:unit id="CI02" type="infantry" row="1" col="5"></hbml:unit>
+      <hbml:unit id="CI03" type="infantry" row="1" col="6"></hbml:unit>
+      <hbml:unit id="CI04" type="infantry" row="1" col="11"></hbml:unit>
+      <hbml:unit id="CI05" type="infantry" row="1" col="12"></hbml:unit>
+      <hbml:unit id="CI06" type="infantry" row="2" col="5"></hbml:unit>
+      <hbml:unit id="CI07" type="infantry" row="2" col="7"></hbml:unit>
+      <hbml:unit id="CI08" type="infantry" row="2" col="8"></hbml:unit>
+      <hbml:unit id="CI09" type="infantry" row="2" col="9"></hbml:unit>
+      <hbml:unit id="CI10" type="infantry" row="2" col="10"></hbml:unit> 
+      <hbml:unit id="CC01" type="cavalry"  row="1" col="2"></hbml:unit>
+      <hbml:unit id="CC02" type="cavalry"  row="1" col="3"></hbml:unit>
+      <hbml:unit id="CA01" type="artillery" row="2" col="4"></hbml:unit>
+      <hbml:unit id="CA02" type="artillery" row="2" col="6"></hbml:unit>
+      <hbml:special>
+        <hbml:cards>4</hbml:cards>
+        <hbml:instructions></hbml:instructions>
+      </hbml:special>
+    </hbml:force>    
+  </hbml:forces>
+  <hbml:notes>
+    <hbml:note id="s" type="special">
+      <hbml:p>The Illinois River can only be crossed at</hbml:p>
+      <hbml:p>the bridge.</hbml:p>
+      <hbml:p></hbml:p>
+      <hbml:p>Union occupation of the Borden Home gains</hbml:p>
+      <hbml:p>1 flag towards victory conditions.</hbml:p>
+      <hbml:p></hbml:p>
+      <hbml:p>The Borden House is on a hill; give it</hbml:p>
+      <hbml:p>elevation bonus only.</hbml:p>
+      <hbml:p></hbml:p>
+      <hbml:p>The Union unit armed with repeating rifles<hbml:comment> (hex 906)</hbml:comment></hbml:p>
+      <hbml:p>gets a 2 dice bonus to attack; subtract one</hbml:p>
+      <hbml:p>die per lost figure (-2 max).</hbml:p>
+      <hbml:p></hbml:p>
+      <hbml:p><b>REINFORCEMENTS</b></hbml:p>
+      <hbml:p>One Union Infantry may enter each of the</hbml:p>
+      <hbml:p>indicated hexes<hbml:comment> (910, 911)</hbml:comment>, when unoccupied, during</hbml:p>
+      <hbml:p>or after Turn 2.</hbml:p>
+      <hbml:p></hbml:p>
+      <hbml:p></hbml:p>      
+    </hbml:note>
+    <hbml:note id="h" type="historical">
+      <hbml:p></hbml:p>
+    </hbml:note>    
+  </hbml:notes>
+</hbml:hexbattle>

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<hbml:hexbattle id="firstbullrun" type="battlecry" version="1.0" xmlns:hbml="http://users.erols.com/jadf/bc/">
+  <hbml:meta>
+    <hbml:designer>
+      <hbml:name>Richard Borg</hbml:name>
+      <hbml:email></hbml:email>
+    </hbml:designer>
+    <hbml:version>1</hbml:version>
+  </hbml:meta>
+  <hbml:scenario>
+    <hbml:name abpp="">1st Bull Run</hbml:name>
+    <hbml:alternate>1st Manassas</hbml:alternate>
+    <hbml:title>Test Subtitle Only</hbml:title>
+    <hbml:date year="1861" month="07" day="21">20th-21st December, 1863</hbml:date>
+    <hbml:period>(first day of battle)</hbml:period>
+    <hbml:location>
+      <hbml:country>USA</hbml:country>
+      <hbml:state code=""></hbml:state>
+    </hbml:location>    
+    <hbml:description></hbml:description>     
+  </hbml:scenario>
+  <hbml:terrain>
+    <hbml:hex row="3" col="10" type="terrain" style="buildings">Henry House</hbml:hex>
+    <hbml:hex row="3" col="1" type="terrain" style="river_straight" face="2">Jackson Creek</hbml:hex>
+    <hbml:hex row="4" col="1" type="terrain" style="buildings">Champion Home</hbml:hex>
+    <hbml:hex row="6" col="5" type="terrain" style="hill">Henry House Hill</hbml:hex>     
+    <hbml:hex row="7" col="1" type="terrain" style="buildings">Old Farm House</hbml:hex>
+    <hbml:hex row="7" col="2" type="terrain" style="river_straight" face="2">Tomson Creek</hbml:hex>
+    <hbml:hex row="8" col="1" type="terrain" style="buildings">Jones Home</hbml:hex>    
+    <hbml:hex row="8" col="9" type="terrain" style="rail" face="3"></hbml:hex>
+    <hbml:hex row="9" col="10" type="terrain" style="rail" face="3"></hbml:hex>
+    
+    <hbml:hex row="9" col="1" type="special" style="border">Special</hbml:hex>
+    <hbml:hex row="1" col="12" type="special" style="shaded"></hbml:hex> 
+    <hbml:hex row="1" col="13" type="special" style="shaded"></hbml:hex>       
+    
+  </hbml:terrain>
+  <hbml:forces>
+    <hbml:force id="u" type="union" name="Union">
+      <hbml:commander>Irving McDowell</hbml:commander>
+      <hbml:unit id="UG01" type="general" row="2" col="2">Lt Briggs</hbml:unit>
+      <hbml:unit id="UI01" type="infantry" row="2" col="2"></hbml:unit>
+      <hbml:unit id="UI02" type="infantry" row="4" col="3"></hbml:unit>
+      <hbml:special>
+        <hbml:cards>4</hbml:cards>
+        <hbml:instructions>You move first.</hbml:instructions>
+      </hbml:special>
+    </hbml:force>
+    <hbml:force id="c" type="confederate" name="Confederate">
+      <hbml:commander>Pierre G. T. Beauregard</hbml:commander>
+      <hbml:unit id="CG01" type="general" row="8" col="5">Lt Parks</hbml:unit>
+      <hbml:unit id="CI01" type="infantry" row="5" col="8">3rd Bgd.</hbml:unit>
+      <hbml:unit id="CI02" type="infantry" row="8" col="8">4th Feds</hbml:unit>
+      <hbml:unit id="CC01" type="cavalry" row="7" col="2"></hbml:unit>
+      <hbml:unit id="CA01" type="artillery" row="8" col="9"></hbml:unit>      
+      <hbml:special>
+        <hbml:cards>5</hbml:cards>
+        <hbml:instructions></hbml:instructions>
+      </hbml:special>
+    </hbml:force>    
+  </hbml:forces>
+  <hbml:notes>
+    <hbml:note id="s" type="special">
+      <hbml:p>There are no special notes</hbml:p>
+      <hbml:p>Why don't <hbml:b>you</hbml:b> add some?</hbml:p>
+    </hbml:note>
+    <hbml:note id="h" type="historical">
+      <hbml:p>The Confederates occupied a defensive position...</hbml:p>
+    </hbml:note>    
+  </hbml:notes>
+</hbml:hexbattle>

@@ -1,0 +1,102 @@
+<?xml version="1.0"?>
+<hbml:hexbattle id="pearidge" type="battlecry" version="1.0" xmlns:hbml="http://users.erols.com/jadf/bc/">
+  <hbml:meta>
+    <hbml:designer>
+      <hbml:name>Richard Borg</hbml:name>
+    </hbml:designer>
+    <hbml:version>1</hbml:version>
+  </hbml:meta>
+  <hbml:scenario>
+    <hbml:name abpp="ar001" acc="ar/ar001" oob="pea">Pea Ridge</hbml:name>
+    <hbml:alternate>Elkhorn Tavern</hbml:alternate>
+    <hbml:title></hbml:title>
+    <hbml:date startyear="1862" startmonth="03" startday="07">7th March, 1862</hbml:date>
+    <hbml:period></hbml:period>
+    <hbml:location>
+      <hbml:country>USA</hbml:country>
+      <hbml:state code="ar">Arkansas</hbml:state>
+    </hbml:location>
+    <hbml:description>The scenario recreates a portion of the battle centered at the Elkhorn Tavern. </hbml:description>       
+  </hbml:scenario>
+  <hbml:terrain>
+    <hbml:hex row="1" col="4" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="2" col="3" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="2" col="8" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="3" col="5" type="terrain" style="woods"></hbml:hex> 
+    <hbml:hex row="3" col="6" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="3" col="10" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="4" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="9" type="terrain" style="woods"></hbml:hex> 
+    <hbml:hex row="4" col="11" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="8" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="11" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="13" type="terrain" style="woods"></hbml:hex> 
+    <hbml:hex row="6" col="7" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="7" col="10" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="8" col="6" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="8" col="8" type="terrain" style="woods"></hbml:hex> 
+    <hbml:hex row="3" col="1" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="4" col="1" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="5" col="1" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="5" col="2" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="5" col="3" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="6" col="1" type="terrain" style="hill"></hbml:hex> 
+    <hbml:hex row="6" col="2" type="terrain" style="hill"></hbml:hex>
+    <hbml:hex row="7" col="1" type="terrain" style="hill"></hbml:hex>     
+    <hbml:hex row="6" col="4" type="terrain" style="buildings">Ekhorn Tavern</hbml:hex>
+    <hbml:hex row="8" col="11" type="terrain" style="buildings">Clemens Farm</hbml:hex>                   
+  </hbml:terrain>
+  <hbml:forces>
+    <hbml:force id="u" type="union" name="Union">
+      <hbml:commander>Samuel R. Curtis</hbml:commander>
+      <hbml:unit id="UG01" type="general"  row="6" col="4">Carr</hbml:unit>
+      <hbml:unit id="UG02" type="general"  row="7" col="12">Dodge</hbml:unit>
+      <hbml:unit id="UI01" type="infantry" row="9" col="2"></hbml:unit>
+      <hbml:unit id="UI02" type="infantry" row="9" col="3"></hbml:unit>
+      <hbml:unit id="UI03" type="infantry" row="5" col="2"></hbml:unit>
+      <hbml:unit id="UI04" type="infantry" row="5" col="3"></hbml:unit>
+      <hbml:unit id="UI05" type="infantry" row="6" col="7"></hbml:unit>
+      <hbml:unit id="UI06" type="infantry" row="6" col="10"></hbml:unit>
+      <hbml:unit id="UC01" type="cavalry"  row="5" col="1"></hbml:unit>
+      <hbml:unit id="UC02" type="cavalry"  row="6" col="11"></hbml:unit>
+      <hbml:unit id="UC03" type="cavalry"  row="9" col="4"></hbml:unit>        
+      <hbml:unit id="UA01" type="artillery" row="6" col="5"></hbml:unit>
+      <hbml:unit id="UA02" type="artillery" row="7" col="11"></hbml:unit>
+      <hbml:unit id="UA03" type="artillery" row="9" col="1"></hbml:unit>            
+      <hbml:special>
+        <hbml:cards>5</hbml:cards>
+        <hbml:instructions></hbml:instructions>
+      </hbml:special>
+    </hbml:force>
+    <hbml:force id="c" type="confederate" name="Confederate">
+      <hbml:commander>Earl van Dorn</hbml:commander>
+      <hbml:unit id="CG01" type="general"  row="1" col="5">Price</hbml:unit>
+      <hbml:unit id="CI01" type="infantry" row="1" col="6"></hbml:unit>
+      <hbml:unit id="CI02" type="infantry" row="1" col="9"></hbml:unit>
+      <hbml:unit id="CI03" type="infantry" row="1" col="11"></hbml:unit>
+      <hbml:unit id="CI04" type="infantry" row="2" col="1"></hbml:unit>
+      <hbml:unit id="CI05" type="infantry" row="2" col="2"></hbml:unit>
+      <hbml:unit id="CI06" type="infantry" row="2" col="3"></hbml:unit>
+      <hbml:unit id="CI07" type="infantry" row="2" col="5"></hbml:unit>
+      <hbml:unit id="CI08" type="infantry" row="2" col="6"></hbml:unit>
+      <hbml:unit id="CI09" type="infantry" row="2" col="9"></hbml:unit>
+      <hbml:unit id="CI10" type="infantry" row="2" col="10"></hbml:unit> 
+      <hbml:unit id="CC01" type="cavalry"  row="1" col="3"></hbml:unit>
+      <hbml:unit id="CC02" type="cavalry"  row="2" col="12"></hbml:unit>
+      <hbml:unit id="CA01" type="artillery" row="1" col="8"></hbml:unit>
+      <hbml:unit id="CA02" type="artillery" row="2" col="4"></hbml:unit>
+      <hbml:special>
+        <hbml:cards>5</hbml:cards>
+        <hbml:instructions>You move first.</hbml:instructions>
+      </hbml:special>
+    </hbml:force>    
+  </hbml:forces>
+  <hbml:notes>
+    <hbml:note id="s" type="special">
+      <hbml:p>None</hbml:p>
+    </hbml:note>
+    <hbml:note id="h" type="historical">
+      <hbml:p></hbml:p>
+    </hbml:note>    
+  </hbml:notes>
+</hbml:hexbattle>

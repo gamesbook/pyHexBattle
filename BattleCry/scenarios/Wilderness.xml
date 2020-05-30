@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<hbml:hexbattle id="wilderness" type="battlecry" version="1.0" xmlns:hbml="http://users.erols.com/jadf/bc/">
+  <hbml:meta>
+    <hbml:designer>
+      <hbml:name>Tony Armada</hbml:name>
+      <hbml:email>armada01@yahoo.com</hbml:email>
+    </hbml:designer>
+    <hbml:version>1</hbml:version>
+  </hbml:meta>
+  <hbml:scenario>
+    <hbml:name abpp="va046">The Wilderness</hbml:name>
+    <hbml:alternate>Combat at Parker's Store, Craig's Meeting House, Todd's Tavern, Brock Road, the Furnaces</hbml:alternate>
+    <hbml:title></hbml:title>
+    <hbml:date year="1864" month="05" day="06">6th May, 1864</hbml:date>
+    <hbml:period>(second day of battle)</hbml:period>
+    <hbml:location>
+      <hbml:country>USA</hbml:country>
+      <hbml:state code=""></hbml:state>
+    </hbml:location>
+    <hbml:description>This is the opening battle of Grant's offensive against the Confederate Army of Northern Virginia. </hbml:description>      
+  </hbml:scenario>
+  <hbml:terrain>
+    
+    <hbml:hex row="3" col="3" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="3" col="5" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="1" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="2" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="3" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="5" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="7" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="8" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="9" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="4" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="5" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="7" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="9" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="10" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="12" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="13" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="6" col="2" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="6" col="3" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="6" col="5" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="6" col="6" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="6" col="10" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="6" col="11" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="7" col="7" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="7" col="13" type="terrain" style="woods"></hbml:hex>
+    
+    <hbml:hex row="1" col="11" type="terrain" style="fence_two" face="5"></hbml:hex>
+    <hbml:hex row="2" col="11" type="terrain" style="fence_two" face="5"></hbml:hex>
+    <hbml:hex row="3" col="12" type="terrain" style="fence_three" face="4"></hbml:hex>
+                    
+    <hbml:hex row="6" col="8" type="terrain" style="buildings">Tapp House</hbml:hex>
+    <hbml:hex row="2" col="3" type="terrain" style="buildings"></hbml:hex>   
+     
+  </hbml:terrain>
+  <hbml:forces>
+    <hbml:force id="u" type="union" name="Union">
+      <hbml:commander>Ulysses S Grant</hbml:commander>
+      <hbml:unit id="UG01" type="general"  row="2" col="4">Warren</hbml:unit>
+      <hbml:unit id="UG02" type="general"  row="2" col="8">Burnside</hbml:unit>
+      <hbml:unit id="UG02" type="general"  row="1" col="10">Hancock</hbml:unit>
+      <hbml:unit id="UI01" type="infantry" row="1" col="8"></hbml:unit>
+      <hbml:unit id="UI02" type="infantry" row="2" col="2"></hbml:unit>
+      <hbml:unit id="UI03" type="infantry" row="2" col="5"></hbml:unit>
+      <hbml:unit id="UI04" type="infantry" row="2" col="10"></hbml:unit>
+      <hbml:unit id="UI05" type="infantry" row="3" col="4"></hbml:unit>
+      <hbml:unit id="UI06" type="infantry" row="3" col="7"></hbml:unit>
+      <hbml:unit id="UI07" type="infantry" row="3" col="8"></hbml:unit>
+      <hbml:unit id="UI08" type="infantry" row="3" col="9"></hbml:unit>
+      <hbml:unit id="UI09" type="infantry" row="3" col="10"></hbml:unit>
+      <hbml:unit id="UI10" type="infantry" row="3" col="11"></hbml:unit>
+      <hbml:unit id="UA01" type="artillery" row="2" col="11"></hbml:unit>
+      <hbml:special>
+        <hbml:cards>4</hbml:cards>
+        <hbml:instructions></hbml:instructions>
+      </hbml:special>
+    </hbml:force>
+    <hbml:force id="c" type="confederate" name="Confederate">
+      <hbml:commander>Robert E Lee</hbml:commander>
+      <hbml:unit id="CG01" type="general"  row="8" col="2">Ewell</hbml:unit>
+      <hbml:unit id="CG02" type="general"  row="8" col="8">Longstreet</hbml:unit>
+      <hbml:unit id="CG03" type="general"  row="7" col="11">A P Hill</hbml:unit>
+      <hbml:unit id="CI01" type="infantry" row="7" col="2"></hbml:unit>
+      <hbml:unit id="CI02" type="infantry" row="7" col="3"></hbml:unit>
+      <hbml:unit id="CI03" type="infantry" row="7" col="8"></hbml:unit>
+      <hbml:unit id="CI04" type="infantry" row="7" col="9"></hbml:unit>
+      <hbml:unit id="CI05" type="infantry" row="7" col="10"></hbml:unit>
+      <hbml:unit id="CI06" type="infantry" row="7" col="12"></hbml:unit>
+      <hbml:unit id="CI07" type="infantry" row="8" col="7"></hbml:unit>
+      <hbml:unit id="CA01" type="artillery" row="8" col="4"></hbml:unit>
+      <hbml:special>
+        <hbml:cards>4</hbml:cards>
+        <hbml:instructions>You move first.</hbml:instructions>
+      </hbml:special>
+    </hbml:force>    
+  </hbml:forces>
+  <hbml:notes>
+    <hbml:note id="s" type="special">
+      <hbml:p>Remove construct fieldworks card</hbml:p>
+      <hbml:p>before play.</hbml:p>
+    </hbml:note>
+    <hbml:note id="h" type="historical">
+      <hbml:p></hbml:p>
+    </hbml:note>    
+  </hbml:notes>
+</hbml:hexbattle>

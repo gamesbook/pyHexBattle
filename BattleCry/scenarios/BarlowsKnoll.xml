@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<hbml:hexbattle id="barlowsknoll" type="battlecry" version="1.0" xmlns:hbml="http://users.erols.com/jadf/bc/">
+  <hbml:meta>
+    <hbml:designer>
+      <hbml:name>Dennis Snow</hbml:name>
+      <hbml:email></hbml:email>
+    </hbml:designer>
+    <hbml:version>1</hbml:version>
+  </hbml:meta>
+  <hbml:scenario>
+    <hbml:name abpp="" acc="" oob="">Barlow's Knoll</hbml:name>
+    <hbml:alternate></hbml:alternate>
+    <hbml:title></hbml:title>
+    <hbml:date year="1863" month="07" day="01">1st July, 1863</hbml:date>
+    <hbml:period></hbml:period>
+    <hbml:location>
+      <hbml:country>USA</hbml:country>
+      <hbml:state code=""></hbml:state>
+    </hbml:location>
+    <hbml:description></hbml:description>    
+  </hbml:scenario>
+  <hbml:terrain>
+    <hbml:hex row="1" col="4" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="1" col="5" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="3" col="6" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="3" col="13" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="4" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="4" col="5" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="5" col="5" type="terrain" style="woods"></hbml:hex>
+    <hbml:hex row="9" col="9" type="terrain" style="woods"></hbml:hex>
+    
+    <hbml:hex row="1" col="3" type="terrain" style="river_straight" face="3">Rock Creek</hbml:hex>
+    <hbml:hex row="2" col="3" type="terrain" style="river_curve" face="1"></hbml:hex>
+    <hbml:hex row="2" col="4" type="terrain" style="river_straight" face="2"></hbml:hex>
+    <hbml:hex row="2" col="5" type="terrain" style="river_straight" face="2"></hbml:hex>
+    <hbml:hex row="2" col="6" type="terrain" style="river_straight" face="2"></hbml:hex>
+    <hbml:hex row="2" col="7" type="terrain" style="river_straight" face="2"></hbml:hex>
+    <hbml:hex row="2" col="8" type="terrain" style="river_straight" face="2"></hbml:hex>
+    <hbml:hex row="2" col="9" type="terrain" style="river_curve" face="4"></hbml:hex>
+    <hbml:hex row="3" col="10" type="terrain" style="river_curve" face="1"></hbml:hex>
+    <hbml:hex row="3" col="11" type="terrain" style="river_straight" face="2"></hbml:hex>
+    <hbml:hex row="3" col="12" type="terrain" style="river_curve" face="4"></hbml:hex>
+    <hbml:hex row="4" col="12" type="terrain" style="river_straight" face="3"></hbml:hex>
+    <hbml:hex row="5" col="13" type="terrain" style="river_straight" face="3"></hbml:hex>         
+                    
+    <hbml:hex row="9" col="10" type="terrain" style="buildings" face="5">Almshouse</hbml:hex> 
+
+    <hbml:hex row="1" col="7" type="terrain" style="crest_three" face="4"></hbml:hex>
+    <hbml:hex row="1" col="8" type="terrain" style="crest_three" face="3"></hbml:hex>    
+    <hbml:hex row="1" col="10" type="terrain" style="crest_four" face="4"></hbml:hex>
+    <hbml:hex row="3" col="3" type="terrain" style="crest_four" face="2"></hbml:hex>
+    <hbml:hex row="4" col="2" type="terrain" style="crest_two" face="3"></hbml:hex>    
+    <hbml:hex row="4" col="5" type="terrain" style="crest_three" face="6"></hbml:hex>
+    <hbml:hex row="4" col="6" type="terrain" style="crest_two" face="1"></hbml:hex>
+    <hbml:hex row="4" col="7" type="terrain" style="crest_three" face="1"></hbml:hex>
+    <hbml:hex row="5" col="5" type="terrain" style="crest_two" face="6"></hbml:hex>
+    <hbml:hex row="5" col="6" type="terrain" style="crest_three" face="6"></hbml:hex>
+    <hbml:hex row="5" col="7" type="terrain" style="crest_four" face="2"></hbml:hex>
+    <hbml:hex row="5" col="8" type="terrain" style="crest_three" face="2"></hbml:hex>
+    <hbml:hex row="6" col="6" type="terrain" style="crest_three" face="3"></hbml:hex>    
+    <hbml:hex row="6" col="7" type="terrain" style="crest_two" face="3"></hbml:hex>  
+    <hbml:hex row="7" col="2" type="terrain" style="crest_three" face="6"></hbml:hex>
+    <hbml:hex row="7" col="3" type="terrain" style="crest_three" face="1"></hbml:hex>
+    <hbml:hex row="8" col="9" type="terrain" style="crest_two" face="1"></hbml:hex> 
+    <hbml:hex row="8" col="1" type="terrain" style="crest_two" face="6"></hbml:hex> 
+    <hbml:hex row="8" col="10" type="terrain" style="crest_four" face="2"></hbml:hex>  
+    <hbml:hex row="9" col="10" type="terrain" style="crest_three" face="3"></hbml:hex>     
+    
+    <hbml:hex row="5" col="1" type="special" style="symbol">*</hbml:hex>
+    <hbml:hex row="5" col="2" type="special" style="symbol">*</hbml:hex>
+    <hbml:hex row="5" col="3" type="special" style="symbol">*</hbml:hex>
+    <hbml:hex row="5" col="4" type="special" style="symbol">*</hbml:hex>
+    <hbml:hex row="6" col="1" type="special" style="symbol">*</hbml:hex>
+    <hbml:hex row="6" col="2" type="special" style="symbol">*</hbml:hex>
+    <hbml:hex row="6" col="3" type="special" style="symbol">*</hbml:hex>  
+    
+      
+      
+  </hbml:terrain>
+  <hbml:forces>
+    <hbml:force id="u" type="union" name="Union">
+      <hbml:commander>Schurz</hbml:commander>
+      <hbml:unit id="UG01" type="general"  row="5" col="7">Von Gilsa</hbml:unit>
+      <hbml:unit id="UG02" type="general"  row="6" col="11">Devin</hbml:unit>
+      <hbml:unit id="UI01" type="infantry" row="4" col="6"></hbml:unit>
+      <hbml:unit id="UI02" type="infantry" row="4" col="7"></hbml:unit>
+      <hbml:unit id="UI03" type="infantry" row="5" col="8"></hbml:unit>
+      <hbml:unit id="UI04" type="infantry" row="6" col="5"></hbml:unit>
+      <hbml:unit id="UI05" type="infantry" row="7" col="5"></hbml:unit>
+      <hbml:unit id="UI06" type="infantry" row="7" col="6"></hbml:unit>
+      <hbml:unit id="UC01" type="cavalry"  row="6" col="11"></hbml:unit>
+      <hbml:unit id="UC02" type="cavalry"  row="6" col="12"></hbml:unit>
+      <hbml:unit id="UC03" type="cavalry"  row="7" col="11"></hbml:unit>        
+      <hbml:unit id="UA01" type="artillery" row="8" col="2"></hbml:unit>
+      <hbml:unit id="UA02" type="artillery" row="5" col="7"></hbml:unit>
+      <hbml:special>
+        <hbml:cards>2</hbml:cards>
+        <hbml:instructions>You move first.</hbml:instructions>
+      </hbml:special>
+    </hbml:force>
+    <hbml:force id="c" type="confederate" name="Confederate">
+      <hbml:commander>Early</hbml:commander>
+      <hbml:unit id="CG01" type="general"  row="3" col="2">Doles</hbml:unit>
+      <hbml:unit id="CG02" type="general"  row="2" col="8">Gordon</hbml:unit>
+      <hbml:unit id="CI01" type="infantry" row="2" col="6"></hbml:unit>
+      <hbml:unit id="CI02" type="infantry" row="2" col="7"></hbml:unit>
+      <hbml:unit id="CI03" type="infantry" row="2" col="8"></hbml:unit>
+      <hbml:unit id="CI04" type="infantry" row="3" col="1"></hbml:unit>
+      <hbml:unit id="CI05" type="infantry" row="3" col="2"></hbml:unit>
+      <hbml:unit id="UI06" type="infantry" row="3" col="3"></hbml:unit>
+      <hbml:unit id="CI07" type="infantry" row="1" col="9"></hbml:unit>
+      <hbml:unit id="CA01" type="artillery" row="1" col="7"></hbml:unit>
+      <hbml:unit id="CA02" type="artillery" row="1" col="8"></hbml:unit>
+      <hbml:unit id="CA03" type="artillery" row="1" col="10"></hbml:unit>     
+      <hbml:special>
+        <hbml:cards>3</hbml:cards>
+        <hbml:instructions>You move first.</hbml:instructions>
+      </hbml:special>
+    </hbml:force>    
+  </hbml:forces>
+  <hbml:notes>
+    <hbml:note id="s" type="special">
+      <hbml:p>Each side gets 1 extra Command Card for</hbml:p>
+      <hbml:p>each officer currently on the board.</hbml:p>
+      <hbml:p>Need 9 flags to win; North 2 hexes at top of</hbml:p>
+      <hbml:p>Knoll<hbml:comment> (Hexes 101,107)</hbml:comment>, and the Almshouse, count as flags.</hbml:p>
+      <hbml:p></hbml:p>
+      <hbml:p><b>Confederate</b>: Automatically get 1 Assault</hbml:p>
+      <hbml:p>card for Right and Center at the start.</hbml:p>
+      <hbml:p>Doles may always play 2 Right Flank card</hbml:p>
+      <hbml:p>per turn, in addition to any other card played.</hbml:p>
+      <hbml:p></hbml:p>
+      <hbml:p><b>Union</b>: Hexes marked * are the 3rd Div</hbml:p>
+      <hbml:p>skirmishers; cost 2MPs for Rebs to enter for</hbml:p>
+      <hbml:p>the first time.  Devins cavalry must discard</hbml:p>
+      <hbml:p>a Right Flank card before they may play one</hbml:p>
+      <hbml:p>to move for the first time.</hbml:p>
+      <hbml:p></hbml:p>
+      <hbml:p><b>Reinforcements.</b></hbml:p>
+      <hbml:p>Union (Hey's Brigade) - 3 Inf + 1 Gen: may </hbml:p>
+      <hbml:p>enter anytime after 3rd turn, on either </hbml:p>
+      <hbml:p>Left or Center.</hbml:p>
+      <hbml:p>Confederate - 3 Inf + 1 Gen: may enter</hbml:p>
+      <hbml:p>anytime after 3rd turn, on Left Flank.</hbml:p>
+      <hbml:p></hbml:p>
+    </hbml:note>
+    <hbml:note id="h" type="historical">
+      <hbml:p></hbml:p>
+    </hbml:note>    
+  </hbml:notes>
+</hbml:hexbattle>
