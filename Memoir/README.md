@@ -16,7 +16,11 @@ For better display, download and install fonts that closely match the originals:
 
 ### A Memoir'44 Scenario File
 
-The XML files that store the scenarios are the heart of **pyHexBattle**. An example scenario file looks this:
+**pyHexBattle** will allow you to create an output for a scenario that looks like the following (note the image has been rescaled to 30% of its original size):
+
+![Hill102](battle.jpg) 
+
+The XML files that store the information for scenarios are the heart of **pyHexBattle**. An example scenario file looks this:
 
     <?xml version="1.0"?>
     <hbml:hexbattle 
