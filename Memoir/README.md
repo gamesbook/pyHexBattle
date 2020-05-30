@@ -191,13 +191,13 @@ The `<location>` is usually the name of the country or area in which the battle 
 
 This section contains a `<hex>` entry for each piece of terrain, obstacle or medal (and other map marking pertinent to the scenario) that appears on the board. Each `<hex>` entry contains:
 
-*   **row**s are numbered from "1" to "9" (starting at the 'top' of the board)
-*   **col**umns are numbered from "1" to "13" (starting at the 'left' of the board)
-*   **type** is one of: "terrain", "marker" or "medal":
+*  **row**s are numbered from "1" to "9" (starting at the 'top' of the board)
+*  **col**umns are numbered from "1" to "13" (starting at the 'left' of the board)
+*  **type** is one of: "terrain", "marker" or "medal":
 
-*   for "terrain" type hexes, a **style** property is required to identify which specific terrain is displayed and, in some cases, a **face** property is used as well (to indicate direction). This is a value from 1 to 6 - a "1" indicating a facing to the top hex-point or "north east" hexside. See also the full [Terrain Tile Set](#tileset) list.
-*   for "marker" types of hexes, a **style**property is required to identify which specific marker is used. See also the full [Tileset](#tileset) list.
-*   for "medal" types of hexes, a **style**property is required to identify which specific medal is used. See also the full [Tileset](#tileset) list.
+   * for "terrain" type hexes, a **style** property is required to identify which specific terrain is displayed and, in some cases, a **face** property is used as well (to indicate direction). This is a value from 1 to 6 - a "1" indicating a facing to the top hex-point or "north east" hexside. See also the full [Terrain Tile Set](#tileset) list.
+   * for "marker" types of hexes, a **style** property is required to identify which specific marker is used. See also the full [Terrain Tile Set](#tileset) list.
+   * for "medal" types of hexes, a **style** property is required to identify which specific medal is used. See also the full [Terrain Tile Set](#tileset) list.
 
 In addition, the name of the terrain feature (hill, buildings, wood, river and so on), or other notation can be supplied e.g. 'Poin Le Croix' for a town/river label.
 
@@ -237,13 +237,13 @@ Each section also contains detailed force information (see below) as well as `<s
 
 This section contains the detailed breakdown of a side's playing pieces (units). Each `<unit>` has associated details on:
 
-*   **id** is a unique identifier for each unit in the nbattle; the suggested notation to be used is a four letter code:
-    *   A or X - for Allied or Axis (German)
-    *   I, T or A - for infantry, armour (tanks) or artillery
-    *   A two-digit number (from 01 upwards...)
-*   **type** must be one of "infantry", "armour" or "artillery"
-*   **row**s are numbered from "1" to "9" (starting at the 'top' of the board)
-*   **col**umns are numbered from "1" to "13" (starting at the 'left' of the board)
+*  **id** is a unique identifier for each unit in the nbattle; the suggested notation to be used is a four letter code:
+   *   A or X - for Allied or Axis (German)
+   *   I, T or A - for infantry, armour (tanks) or artillery
+   *   A two-digit number (from 01 upwards...)
+*  **type** must be one of "infantry", "armour" or "artillery"
+*  **row**s are numbered from "1" to "9" (starting at the 'top' of the board)
+*  **col**umns are numbered from "1" to "13" (starting at the 'left' of the board)
 
 #### Notes Section
 
@@ -293,100 +293,22 @@ A number of XSL (stylesheet) files, each containing different instructions for p
 *   <a name="dedicaton"></a>[Days of Wonder](http://www.daysofwonder.com/) maintains the [official web site](http://www.memoir44.com)
 *   [The BoardGameGeek](http://www.boardgamegeek.com/) has reviews and resources for [Memoir'44](http://www.boardgamegeek.com/viewitem.php3?gameid=10630)
 
-<a name="tileset"></a>
 
+<a name="tileset"></a>
 
 ### Terrain and Marker Tile Set
 
 This table summarises all the different types of terrain that can be referenced in an XML scenario file.
 
-<table summary="Terrain Tiles" border="1">
+| Tile                            | Name     | Tile                                        | Name           |
+|---------------------------------|----------|---------------------------------------------|----------------|
+| ![woods](tiles/woods.png)       | woods    | ![hill](tiles/hill.png)                     | hill           |
+| ![hedgerow](tiles/hedgerow.png) | hedgerow | ![river_straight](tiles/river_straight.png) | river_straight |
+| ![lake](tiles/lake.png)         | lake     | ![river_curve](tiles/river_curve.png)       | river_curve    |
+| ![beach](tiles/beach.png)       | beach    | ![waves](tiles/waves.png)                   | waves          |
+| ![town](tiles/town.png)         | town     | ![bunker](pieces/bunker.png)                | bunker         |
+| ![village](tiles/village.png)   |village   | ![bridge](pieces/bridge.png)                | bridge         |
 
-<tbody>
-
-<tr>
-
-<th>Tile</th>
-
-<th>Name</th>
-
-<th>Tile</th>
-
-<th>Name</th>
-
-<th>Tile</th>
-
-<th>Name</th>
-
-</tr>
-
-<tr>
-
-<td>![woods](tiles/woods.png)</td>
-
-<td>woods</td>
-
-<td>![hill](tiles/hill.png)</td>
-
-<td>hill</td>
-
-<td>![hedgerow](tiles/hedgerow.png)</td>
-
-<td>hedgerow</td>
-
-</tr>
-
-<tr>
-
-<td>![river_straight](tiles/river_straight.png)</td>
-
-<td>river_straight</td>
-
-<td>![river_curve](tiles/river_curve.png)</td>
-
-<td>river_curve</td>
-
-<td>![lake](tiles/lake.png)</td>
-
-<td>lake</td>
-
-</tr>
-
-<tr>
-
-<td>![village](tiles/village.png)</td>
-
-<td>village</td>
-
-<td>![town](tiles/town.png)</td>
-
-<td>town</td>
-
-<td>![bunker](pieces/bunker.png)</td>
-
-<td>bunker</td>
-
-</tr>
-
-<tr>
-
-<td>![bridge](pieces/bridge.png)</td>
-
-<td>bridge</td>
-
-<td>![waves](tiles/waves.png)</td>
-
-<td>waves</td>
-
-<td>![blank](tiles/blank.png)</td>
-
-<td>blank</td>
-
-</tr>
-
-</tbody>
-
-</table>
 
 <a name="gamepieces"></a>
 
@@ -394,83 +316,12 @@ This table summarises all the different types of terrain that can be referenced 
 
 This table summarises the different types of game pieces (apart from terrain) that can be referenced in an XML scenario file.
 
-<table summary="Game Pieces" border="1">
-
-<tbody>
-
-<tr>
-
-<th>Piece</th>
-
-<th>Name</th>
-
-<th>Piece</th>
-
-<th>Name</th>
-
-<th>Piece</th>
-
-<th>Name</th>
-
-</tr>
-
-<tr>
-
-<td>![allied_wire](pieces/allied_wire.png)</td>
-
-<td>allied_wire</td>
-
-<td>![allied_hedgehog](pieces/allied_hedgehog.png)</td>
-
-<td>allied_hedgehog</td>
-
-<td>![allied_sandbag](pieces/key_allied_sandbag.png)</td>
-
-<td>allied_sandbag</td>
-
-</tr>
-
-<tr>
-
-<td>![german_wire](pieces/german_wire.png)</td>
-
-<td>german_wire</td>
-
-<td>![german_hedgehog](pieces/german_hedgehog.png)</td>
-
-<td>german_hedgehog</td>
-
-<td>![german_sandbag](pieces/key_german_sandbag.png)</td>
-
-<td>german_sandbag</td>
-
-</tr>
-
-<tr>
-
-<td>![allied_medal](pieces/allied_medal.png)</td>
-
-<td>allied_medal</td>
-
-<td>![german_medal](pieces/german_medal.png)</td>
-
-<td>german_medal</td>
-
-</tr>
-
-<tr>
-
-<td>![allied_airborne](pieces/br_airborne.png)</td>
-
-<td>br_airborne</td>
-
-<td>![german_special](pieces/ger_special.png)</td>
-
-<td>ger_special</td>
-
-</tr>
-
-</tbody>
-
-</table>
+| Piece                                         | Name           | Piece                                          | Name            |
+|-----------------------------------------------|----------------|------------------------------------------------|-----------------|
+| ![allied_wire](pieces/allied_wire.png)        | allied_wire    | ![allied_hedgehog](pieces/allied_hedgehog.png) | allied_hedgehog |
+| ![allied_sandbag](pieces/allied_sandbag.png)  | allied_sandbag |                                                |                 |
+| ![german_wire](pieces/german_wire.png)        | german_wire    | ![german_hedgehog](pieces/german_hedgehog.png) | german_hedgehog |
+| ![german_sandbag](pieces/german_sandbag.png)  | german_sandbag |                                                |                 |
+| ![allied_medal](pieces/allied_medal.png)      | allied_medal   | ![allied_airborne](pieces/br_airborne.png)     | allied_airborne |
+| ![german_medal](pieces/german_medal.png)      | german_medal   | ![german_special](pieces/ger_special.png)      | german_special  |
 
