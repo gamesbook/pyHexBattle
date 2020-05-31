@@ -1,10 +1,10 @@
 # pyHexBattle
 
-## Memoir'44 Notes
+# Memoir'44 Notes
 
 These notes assume you have already read the main `README` file.
 
-### Optional Downloads
+## Optional Downloads
 
 For better display, download and install fonts that closely match the originals:
 
@@ -14,7 +14,7 @@ For better display, download and install fonts that closely match the originals:
 <a name="xml-scenario"></a>
 
 
-### A Memoir'44 Scenario File
+## A Memoir'44 Scenario File
 
 **pyHexBattle** will allow you to create an output for a scenario that looks like the following (note the image has been rescaled to 30% of its original size):
 
@@ -131,7 +131,7 @@ The XML files that store the information for scenarios are the heart of **pyHexB
 
 A section-by-section explanation of this file now follows.
 
-#### Header Information
+### Header Information
 
     <?xml version="1.0"?>
     <hbml:hexbattle 
@@ -144,7 +144,7 @@ A section-by-section explanation of this file now follows.
 
 This section is the 'standard' header for an XML file - the only thing that will need to change will be the "id"; this is typically the name of the battle (in lowercase), and should be unique across all battles. For multi-day, or more complex, battles, a longer name might be required e.g. **arnhem-bridge-day1**. The `hbml:` is a prefix which appears in all subsequent tags; it is linked to a unique identifier for this type of XML file that distinguishes it from any other XML file.
 
-#### Meta Information
+### Meta Information
 
     <hbml:meta>
         <hbml:designer id="jw">
@@ -156,7 +156,7 @@ This section is the 'standard' header for an XML file - the only thing that will
 This section contains information on the `<designer>` of the scenario (the person's `<name>` and `<email>` and `<website>`) and which `<version>` of the scenario this particular file represents.
 
 
-#### Scenario Information
+### Scenario Information
 
     <hbml:scenario status="draft" version="1">
         <hbml:name>Hill 102</hbml:name>
@@ -178,7 +178,8 @@ The `<name>` is the one conventionally assigned to the battle, while the `<alter
 
 The `<location>` is usually the name of the country or area in which the battle took place. Typical names for locations of European battles would be France, Germany, Belgium, Italy or Russia.
 
-#### Terrain and Marker Information
+
+### Terrain and Marker Information
 
     <hbml:terrain background="standard">  
         <hbml:hex id="4" row="4" col="3" type="terrain" style="hill"></hbml:hex>
@@ -207,7 +208,8 @@ In addition, the name of the terrain feature (hill, buildings, wood, river and s
 
 **Tip:** In the case where one type of terrain feature has to overlay another - such as is the case for Sandbag placed on, say, a Hill - the overlying terrain `<hex>` entry should occur **after** (below) the entry for the base terrain. All "obstacle" hexes are also usually placed near the end, followed by "medal" hexes, as they typically provide additional annotation that must appear 'over' the underlying terrain.
 
-#### Forces Information
+
+### Forces Information
 
     <hbml:forces>
 
@@ -231,7 +233,8 @@ This section contains information on the opposing sides in the battle. There wil
 
 Each section also contains detailed force information (see below) as well as `<special>` information applicable to it. This is an `<instructions>` set, such as who it is that starts first.
 
-#### Units Information
+
+### Units Information
 
     <hbml:unit id="XT01" type="armour"  row="4" col="2"></hbml:unit>
     <hbml:unit id="XI01" type="infantry" row="2" col="4"></hbml:unit>
@@ -249,7 +252,8 @@ This section contains the detailed breakdown of a side's playing pieces (units).
 *  **row**s are numbered from "1" to "9" (starting at the 'top' of the board)
 *  **col**umns are numbered from "1" to "13" (starting at the 'left' of the board)
 
-#### Notes Section
+
+### Notes Section
 
     <hbml:notes>
       <hbml:note id="s" type="special">
@@ -279,7 +283,7 @@ This section can contain three different types of notes. Typically, there will b
 <a name="xslfiles"></a>
 
 
-### The XSL "Map Making" Files
+## The XSL "Map Making" Files
 
 A number of XSL (stylesheet) files, each containing different instructions for processing any scenario XML file, are supplied in the `styles` directory.
 
@@ -289,7 +293,7 @@ A number of XSL (stylesheet) files, each containing different instructions for p
 *   The `battle2bwSVG.xsl` file will, when processed in conjunction with a scenario XML file, create a simple map layout in SVG, using markers and standard symbology for units.
 
 
-### Memoir'44 Resources
+## Memoir'44 Resources
 
 </a>
 
@@ -300,7 +304,7 @@ A number of XSL (stylesheet) files, each containing different instructions for p
 
 <a name="tileset"></a>
 
-### Terrain and Marker Tile Set
+## Terrain and Marker Tile Set
 
 This table summarises all the different types of terrain that can be referenced in an XML scenario file.
 
@@ -316,7 +320,7 @@ This table summarises all the different types of terrain that can be referenced 
 
 <a name="gamepieces"></a>
 
-### Other Game Pieces
+## Other Game Pieces
 
 This table summarises the different types of game pieces (apart from terrain) that can be referenced in an XML scenario file.
 
